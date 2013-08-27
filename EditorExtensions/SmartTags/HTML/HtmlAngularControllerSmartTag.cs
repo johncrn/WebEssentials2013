@@ -88,7 +88,7 @@ namespace MadsKristensen.EditorExtensions.SmartTags
                 sb.AppendLine("var myApp = angular.module('myApp',[]);");
                 sb.AppendLine();
                 sb.AppendLine("myApp.controller('{0}', ['$scope', function($scope) {{");
-                sb.AppendLine("    $scope.greeting = 'Hola!!';");
+                sb.AppendLine("    $scope.greeting = 'Hola!@@!';");
                 sb.AppendLine("}}]);");
 
                 string script = string.Format(sb.ToString(), value);
